@@ -4,9 +4,9 @@ import "./App.css";
 
 import MainPage from "./components/MainPage/MainPage";
 import { PrivacyPolicy } from "./components/Policy/Policy";
-import Login from "./components/Login/Login";
-import { AdminRoute } from "./components/AdminRoute/AdminRoute";
-import Admin from "./components/Admin/Admin";
+// import Login from "./components/Login/Login";
+// import { AdminRoute } from "./components/AdminRoute/AdminRoute";
+// import Admin from "./components/Admin/Admin";
 
 export default function App() {
     return (
@@ -16,8 +16,8 @@ export default function App() {
                 <Route path="/privacy_policy" element={<PrivacyPolicy />} />
                 <Route path="/terms_of_use" index element={<MainPage />} />
                 <Route path="/cookies_policy" element={<MainPage />} />
-                <Route path="/admin" element={<AdminRoute><Admin /></AdminRoute>} />
-                <Route path="/admin/login" element={<Login />} />
+                {/* <Route path="/admin" element={<AdminRoute><Admin /></AdminRoute>} /> */}
+                {/* <Route path="/admin/login" element={<Login />} /> */}
                 <Route path="*" element={<Navigate to="/" />} />
             </Routes>
         </BrowserRouter>

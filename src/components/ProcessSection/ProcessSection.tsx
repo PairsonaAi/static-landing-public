@@ -7,7 +7,7 @@ export default function ProcessSection() {
         <section className="page process-page desktop">
             <PageSplitter
                 title="How it works?"
-                imageURL="https://storage.googleapis.com/static_object_storage-instance-1/website_images/page1.png"
+                imageURL={require('../../assets/images/amelia_roof.png')}
             >
                 <>
                     <h2 className="page-splitter__header">Creation</h2>

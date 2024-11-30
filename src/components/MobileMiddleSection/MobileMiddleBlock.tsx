@@ -4,7 +4,6 @@ import PointerDown from "../PointerDown/PointerDown";
 import Slider from "../Slider/Slider";
 import ModelSlide from "../ModelSlide/ModelSlide";
 import BenefitBlock from "../BenefitBlock/BenefitBlock";
-import Input from "../Input/Input";
 import Footer from "../Footer/Footer";
 
 import { ModelSlideData } from "../ModelSlide/ModelSlide";
@@ -27,7 +26,7 @@ export default function MobileMiddleSection({ slides }: Props) {
 
             <img
                 className="decoration-image centered"
-                src="https://storage.googleapis.com/static_object_storage-instance-1/website_images/page1.png"
+                src={require('../../assets/images/amelia_roof.png')}
                 alt="Model example"
             />
 
@@ -74,9 +73,7 @@ export default function MobileMiddleSection({ slides }: Props) {
                 </BenefitBlock>
             </div>
 
-            <p className="centered">We would appreciate any support on social media or if you just tell your friends about us. To make sure you don't miss the Pre-Release and stay up to date with our news, consider signing up for our newsletter:</p>
-
-            <Input className="m-input centered" />
+            <p className="centered">We would appreciate any support on social media or if you just tell your friends about us. To make sure you don't miss the Pre-Release and stay up to date with our news, consider signing up for our newsletter.</p>
 
             <Footer />
         </section>

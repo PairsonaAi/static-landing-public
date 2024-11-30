@@ -2,7 +2,6 @@ import "./ReleaseSection.css";
 
 import PageSplitter from "../PageSplitter/PageSplitter";
 import BenefitBlock from "../BenefitBlock/BenefitBlock";
-import Input from "../Input/Input";
 import Footer from "../Footer/Footer";
 
 export default function ReleaseSection() {
@@ -10,7 +9,7 @@ export default function ReleaseSection() {
         <section className="page release-page desktop">
             <PageSplitter
                 title="Soon to come"
-                imageURL="https://storage.googleapis.com/static_object_storage-instance-1/website_images/page3.png"
+                imageURL={require('../../assets/images/page_4.png')}
             >
                 <>
                     <h2 className="page-splitter__header">Date: to be announced</h2>
@@ -34,9 +33,7 @@ export default function ReleaseSection() {
                         </BenefitBlock>
                     </div>
 
-                    <p className="page-splitter__text">We would appreciate any support on social media or if you just tell your friends about us. To make sure you don't miss the Pre-Release and stay up to date with our news, consider signing up for our newsletter:</p>
-
-                    <Input />
+                    <p className="page-splitter__text">We would appreciate any support on social media or if you just tell your friends about us. To make sure you don't miss the Pre-Release and stay up to date with our news, consider signing up for our newsletter.</p>
                 </>
             </PageSplitter>
 
