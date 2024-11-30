@@ -1,0 +1,19 @@
+.policy {
+    width: 100%;
+    height: 100%;
+    padding: 2.541rem 3.875rem;
+}
+
+.policy__title {
+    display: inline-block;
+    margin-bottom: 1.2rem;
+
+    font-family: RobotoMono;
+    font-size: 2.333rem;
+    font-weight: 700;
+
+    background-image: linear-gradient(40deg, #DDDDDD, #6654D7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

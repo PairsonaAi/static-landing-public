@@ -1,0 +1,24 @@
+.model-slide {
+    width: var(--slider-slide-width);
+}
+
+.model-slide__image {
+    aspect-ratio: 1/1;
+    width: 100%;
+    margin-bottom: 0.333em;
+
+    object-fit: cover;
+    object-position: center center;
+}
+
+.model-slide__inst {
+    font-family: IBMPlexSans;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 990px) {
+    .model-slide__inst {
+        font-size: 1.125rem;
+    }
+}

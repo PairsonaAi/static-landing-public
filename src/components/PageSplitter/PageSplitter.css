@@ -1,0 +1,46 @@
+.page-splitter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.page-splitter__top-line {
+    box-sizing: content-box;
+    flex: 0 0 auto;
+    width: 100%;
+    padding-top: 2.5em;
+}
+
+.page-splitter__bottom-block {
+    overflow: hidden;
+
+    display: flex;
+    gap: 4rem;
+    flex-grow: 1;
+    width: 100%;
+    padding: 2.2rem 4.08rem 1.91rem 3.875rem;
+}
+
+.page-splitter__content {
+    flex-grow: 1;
+}
+
+.page-splitter__image {
+    flex: 0 0 auto;
+    width: 20rem;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.page-splitter__header {
+    margin-bottom: var(--ps-h2-margin-bottom);
+}
+
+.page-splitter__text {
+    margin-bottom: var(--ps-p-margin-bottom);
+}
+
+/* 895 */

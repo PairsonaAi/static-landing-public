@@ -1,0 +1,50 @@
+.mobile-only {
+    display: none;
+
+    width: 100%;
+    height: fit-content;
+
+    --slider-slide-width: 17.5rem;
+    --slider-padding: 0 0 0 1.125rem;
+}
+
+.centered {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.m-intro {
+    display: inline-block;
+    margin-top: 1.6875rem;
+
+    font-family: IBMPlexSans;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.m-header {
+    margin-bottom: 0.5rem;
+}
+
+.decoration-image {
+    aspect-ratio: 1/1;
+    width: 100%;
+    margin: 2.25rem 0;
+    
+    object-fit: cover;
+}
+
+@media screen and (max-width: 990px) {
+    .mobile-only {
+        display: block;
+    }
+
+    .slider {
+        margin-bottom: 1.5625rem;
+    }
+}
+
+.m-input {
+    margin: 1.125rem 0 1.5625rem 0;
+}
