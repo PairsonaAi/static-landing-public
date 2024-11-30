@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e4ac489.css",
+    "main.js": "/static/js/main.a7219f7e.js",
+    "static/media/background.png": "/static/media/background.fa55f9c90e5e626e3c86.png",
+    "static/media/page_4.png": "/static/media/page_4.a597b193a8c4813d80e0.png",
+    "static/media/amelia_roof.png": "/static/media/amelia_roof.7a9aedf2ed2aa7d72b84.png",
+    "static/media/model_3.png": "/static/media/model_3.c7f64d7a256ca01498b2.png",
+    "static/media/model_2.png": "/static/media/model_2.a229bbe8a7b20c74d77e.png",
+    "static/media/model_4.png": "/static/media/model_4.efb0bb70a09eb214f7d4.png",
+    "static/media/model_1.png": "/static/media/model_1.75ba844e62ed39162f6f.png",
+    "static/media/hands.png": "/static/media/hands.6f9cb16921537baafa49.png",
+    "static/media/IBMPlexSans-400.ttf": "/static/media/IBMPlexSans-400.d77342fdcbcb6b3ce1b5.ttf",
+    "static/media/Merriweather-900.ttf": "/static/media/Merriweather-900.cfe2aa3843d8cb416e1a.ttf",
+    "static/media/Nunito-500.ttf": "/static/media/Nunito-500.06740446a9f13288701b.ttf",
+    "static/media/Nunito-400.ttf": "/static/media/Nunito-400.9d7a6e03c6e3ed49c7ac.ttf",
+    "static/media/RobotoMono-300.ttf": "/static/media/RobotoMono-300.234f40fa88a810bad5e4.ttf",
+    "static/media/RobotoMono-700.ttf": "/static/media/RobotoMono-700.7211ab61a8b83177865a.ttf",
+    "static/media/RobotoMono-400.ttf": "/static/media/RobotoMono-400.94ffabb10cbc81ee42ba.ttf",
+    "static/media/RobotoMono-500.ttf": "/static/media/RobotoMono-500.275e41b58d96111c1152.ttf",
+    "index.html": "/index.html",
+    "main.9e4ac489.css.map": "/static/css/main.9e4ac489.css.map",
+    "main.a7219f7e.js.map": "/static/js/main.a7219f7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e4ac489.css",
+    "static/js/main.a7219f7e.js"
+  ]
+}
